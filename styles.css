@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+}
+
+.search-box{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    border: 2px solid black;
+}
+
+.search-input{
+    width: 90%;
+    border: 2px solid rgb(180, 114, 114);
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 15px;
+    border: 2px solid rgb(51, 158, 92);
+}
+
+.header-option{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.auth-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
